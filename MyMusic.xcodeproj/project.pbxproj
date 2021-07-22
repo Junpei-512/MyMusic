@@ -11,6 +11,8 @@
 		205C635226A936E6007ECEF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C635126A936E6007ECEF0 /* ContentView.swift */; };
 		205C635426A936E7007ECEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205C635326A936E7007ECEF0 /* Assets.xcassets */; };
 		205C635726A936E7007ECEF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205C635626A936E7007ECEF0 /* Preview Assets.xcassets */; };
+		205C635F26A93B01007ECEF0 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C635E26A93B01007ECEF0 /* SoundPlayer.swift */; };
+		205C636126A93F98007ECEF0 /* ButtonImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C636026A93F98007ECEF0 /* ButtonImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		205C635326A936E7007ECEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		205C635626A936E7007ECEF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		205C635826A936E7007ECEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205C635E26A93B01007ECEF0 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		205C636026A93F98007ECEF0 /* ButtonImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				205C634F26A936E6007ECEF0 /* MyMusicApp.swift */,
 				205C635126A936E6007ECEF0 /* ContentView.swift */,
+				205C636026A93F98007ECEF0 /* ButtonImageView.swift */,
+				205C635E26A93B01007ECEF0 /* SoundPlayer.swift */,
 				205C635326A936E7007ECEF0 /* Assets.xcassets */,
 				205C635826A936E7007ECEF0 /* Info.plist */,
 				205C635526A936E7007ECEF0 /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				205C635226A936E6007ECEF0 /* ContentView.swift in Sources */,
+				205C635F26A93B01007ECEF0 /* SoundPlayer.swift in Sources */,
+				205C636126A93F98007ECEF0 /* ButtonImageView.swift in Sources */,
 				205C635026A936E6007ECEF0 /* MyMusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +273,6 @@
 		205C635C26A936E7007ECEF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MyMusic/Preview Content\"";
@@ -287,7 +294,6 @@
 		205C635D26A936E7007ECEF0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MyMusic/Preview Content\"";
